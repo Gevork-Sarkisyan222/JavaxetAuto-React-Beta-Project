@@ -1,0 +1,92 @@
+.Inside-Card-Main {
+    position: relative;
+    width: 1000px;
+    /* padding-top: 700px; */
+    margin: 0 auto;
+    border-radius: 60px;
+    height: 667px; 
+    /* height: 100%; */
+    background-color: white;
+}
+
+.Inside-Card-Image-Slider {
+    position: absolute;
+    top: 171px;
+    left: 65px
+}
+
+.cards-info-content {
+    display: flex;
+    justify-content: center;
+}
+
+.inside-card-title {
+    position: absolute;
+    top: 104px;
+    left: 70px;
+    font-size: 28px;
+    justify-content: flex-end;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inside-card-back {
+    position: absolute;
+    top: 128px;
+    left: 22px;
+}
+
+.charateristics-of-car-main {
+    position: relative;
+    width: 408px;
+    top: 134px;
+    border-radius: 62px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 6px;
+    height: 420px;
+    background-color: rgb(196, 196, 196);
+    box-shadow: black 0px 20px 30px -10px;
+    left: 190px;
+}
+.charateristics-of-car-main:hover {
+    transition: 1s;
+    box-shadow: yellow 0px 20px 30px -10px;
+}
+
+.charateristics-car-text {
+    position: absolute;
+    top: 27px;
+    left: 22px;
+    display: flex;
+    /* row-gap: -40px; */
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+}
+.charateristics-car-text > p {
+    text-shadow: 10px  black;
+}
+
+.charateristics-car-second-text {
+    position: absolute;
+    top: 27px;
+    left: 226px;
+    display: flex;
+    /* row-gap: -40px; */
+    gap: 4px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: rgb(14, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Buy-Modal-Card {
+    position: relative;
+    top: 200px;
+}
+
+.buy-car-button {
+    position: relative;
+    top: 190px;
+    left: -423px;
+    width: 400px;
+}
